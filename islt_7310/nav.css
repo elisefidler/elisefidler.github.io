@@ -1,4 +1,5 @@
 li {
     display: inline;
-
+    padding: 0px;
+    margin: 100px;
 }
