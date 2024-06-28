@@ -1,13 +1,26 @@
-ul {
+.menu {
     margin-right: 0;
     margin-left: 0;
-    margin-top: 1.5em;
+    margin-top: 0;
     margin-bottom: 1.5em;
-    padding-left: 0;
-    padding-bottom: 30px;
+    padding: 0;
     border-bottom: solid 1.75px #eb5344;
 }
-li {
-    display: inline;
+.menuItem {
+    display: inline-block;
     padding: 30px;
 }
+.dropDownList {
+    display: none;
+    position: absolute;
+    padding-left: 0;
+    
+}
+.dropDownList li {
+    display: block;
+}
+
+#dropDown:hover .dropDownList{
+    display: block;
+}
+
