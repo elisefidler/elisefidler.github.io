@@ -1,7 +1,7 @@
-
+ul {
+    margin: 50em;
+}
 li {
     display: inline;
     padding: 30px;
-    border: 15px;
-    border-color:  #eb5344;
 }
