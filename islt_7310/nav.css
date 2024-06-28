@@ -1,8 +1,8 @@
 ul {
-    margin:50px;
+    margin:20px;
+    border: 5px #eb5344;
 }
 li {
     display: inline;
-    padding: 20px;
-    border: 5px #eb5344;
+    padding: 30px;
 }
