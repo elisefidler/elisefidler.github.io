@@ -1,5 +1,11 @@
 ul {
-    margin: 50em;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding-left: 0;
+    padding-bottom: 30px;
+    border-bottom: solid 1.75px #eb5344;
 }
 li {
     display: inline;
