@@ -16,51 +16,60 @@
     -->
 <body>
     <!--Note: This header element will contain menu and logo picture that links to home page-->
-    <header>
+    <div class="gridContainerAbout"></div>
+        <header>
         <!--Logo-->
-        <nav>
-            <ul class="menu">
-                <li class="menuItem"><a href="index.html">Home</a></li>
-                <li class="menuItem" ><a href="about.html">About</a></li>
-                <div class="dropDownParent"><li class="menuItem dropDown"><a href="#projects.html">Jobs/Projects</a></li>
-                    <div class="dropDownChild"><ul class="dropDownList">
-                        <li>Link 1</li>
-                        <li>Link 2</li>
-                        <li>Link 3</li>
-                    </ul></div>
-                 </div>   
-                <li class="menuItem"><a href="reflection.html">Reflection</a></li>
-                <li class="menuItem"><a href="#contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h3><strong>About Me</strong></h3>
-        <p>My name is Elise Fidler. I am pursuing a bachelor's degree in Computer Science from 
-        the University of Missouri and expect to graduate in May 2027. I am interested in a 
-        career in web development and/or UI/UX design. I enjoy exploring how to create 
-        effective designs that enhance user experiences. Ultimately, my goal is to create 
-        enjoyable online experiences through a fusion of form and functionality. <br> <br>
-        Currently, I am on the graphic design team for Mizzou's annual hackathon, 
-        <em>TigerHacks</em>. I have also done design work for Mizzou Res Life. When I am not 
-        doing schoolwork, I enjoy working on personal art projects, experimenting with graphic 
-        design software, and going on long walks. I also enjoy spending time with my family and 
-        friends (<em>including my two cats and dog</em>) back home in Chicago. I am presently 
-        looking for internship opportunities that involve front-end programming and/or graphic
-        design work.</p>
-        <h3><strong>Education Overview</strong></h3>
-        <p>I am a sophomore pursuing a bachelor's degree in Computer Science at the University 
-        of Missouri's College of Engineering. I expect to graduate in spring 2027. I plan to 
-        focus on web development and UI/UX design.</p>
-        <!--Resume video-->
-        <a href="../index/Fidler, Elise - Resume 2024.pdf">Resume PDF</a>
-        <!--Headshot-->
-        <blockquote>The only thing we have to fear is fear itself…</blockquote>
-    </main>
-    <footer>
-        <p>Elise Fidler</p>
-        <p>esf5bb@umsystem.edu</p>
-        <p>© 2024 Elise Fidler. All rights reserved.</p>
-    </footer>
+            <nav>
+                <ul class="menu">
+                    <li class="menuItem"><a href="index.html">Home</a></li>
+                    <li class="menuItem" ><a href="about.html">About</a></li>
+                    <div class="dropDownParent"><li class="menuItem dropDown"><a href="#projects.html">Jobs/Projects</a></li>
+                        <div class="dropDownChild"><ul class="dropDownList">
+                            <li>Link 1</li>
+                            <li>Link 2</li>
+                            <li>Link 3</li>
+                        </ul></div>
+                    </div>   
+                    <li class="menuItem"><a href="reflection.html">Reflection</a></li>
+                    <li class="menuItem"><a href="#contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="aboutContainer"><h3><strong>About Me</strong></h3>
+                <div class="aboutParagraphContainer">
+                    <p class="aboutParagraph">My name is Elise Fidler. I am pursuing a bachelor's degree in Computer Science from 
+                    the University of Missouri and expect to graduate in May 2027. I am interested in a 
+                    career in web development and/or UI/UX design. I enjoy exploring how to create 
+                    effective designs that enhance user experiences. Ultimately, my goal is to create 
+                    enjoyable online experiences through a fusion of form and functionality.</p>
+                    <p class="aboutParagraph">Currently, I am on the graphic design team for Mizzou's annual hackathon, 
+                    <em>TigerHacks</em>. I have also done design work for Mizzou Res Life. When I am not 
+                    doing schoolwork, I enjoy working on personal art projects, experimenting with graphic 
+                    design software, and going on long walks. I also enjoy spending time with my family and 
+                    friends (<em>including my two cats and dog</em>) back home in Chicago. I am presently 
+                    looking for internship opportunities that involve front-end programming and/or graphic
+                    design work.</p>
+                </div>
+                <div class="aboutImageContainer">
+                    <img class="aboutImage" src="Fidler, Elise - Headshot.jpg">
+                </div>
+            </div>
+            <div class="educationParagraphContainer">
+                <h3><strong>Education Overview</strong></h3>
+                <p class="educationParagraph">I am a sophomore pursuing a bachelor's degree in Computer Science at the University 
+                of Missouri's College of Engineering. I expect to graduate in spring 2027. I plan to 
+                focus on web development and UI/UX design.</p>
+            </div>
+            <blockquote class="aboutQuote">The only thing we have to fear is fear itself…</blockquote>
+            <!--Resume video-->
+            <a href="../index/Fidler, Elise - Resume 2024.pdf">Resume PDF</a>
+        </main>
+        <footer>
+            <p>Elise Fidler</p>
+            <p>esf5bb@umsystem.edu</p>
+            <p>© 2024 Elise Fidler. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>

@@ -1,6 +1,45 @@
 h1 {
     color: #eb5344;
 }
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.gridContainerIndex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.indexMain{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.aboutContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.aboutParagraphContainer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.aboutImageContainer {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.aboutImage {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.educationParagraphContainer {
+    text-align: right;
+}
+.aboutQuote {
+    text-align: center;
+}
 .firstLetter {
     display: inline-block;
     font-weight: 900;
